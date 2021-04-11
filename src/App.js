@@ -5,7 +5,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>This is h1</h1>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
       </div>
     );
   }
