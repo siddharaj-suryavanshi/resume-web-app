@@ -6,4 +6,7 @@ In this project I'll be learning and applying the ReactJs Fundamentals to create
 * App (Root Component)
   * Header
   * Experience
+     * IBM
+     * Servient
+     * Synechron
 
