@@ -9,17 +9,15 @@ const Header = (props) => {
         <h2 className="role">Software Developer</h2>
         <div className="grid-container">
           <div class="grid-item">
-            <i className="fa fa-phone"></i>
-            +91-7738958923
+            <i className="fa fa-phone"></i> &nbsp; +91-7738958923
           </div>
           <div class="grid-item">
-            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;
             sid.sunvanshi@gmail.com
           </div>
           <div class="grid-item"></div>
           <div class="grid-item">
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-            Pune,India
+            <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; Pune,India
           </div>
           <div class="grid-item"></div>
           <div class="grid-item"></div>
