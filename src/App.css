@@ -1,10 +1,7 @@
-body {
-  background: bisque;
-}
-
 .App {
   display: flex;
   justify-content: center;
+  padding-top: 20px;
 }
 
 h2.role {
@@ -13,4 +10,17 @@ h2.role {
 
 img {
   border-radius: 60%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.grid-item {
+  padding: 10px;
+  font-size: 15px;
+}
+
+header > div {
+  padding: 20px;
 }

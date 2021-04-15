@@ -1,15 +1,31 @@
 import image0 from "../media/image0.jpeg";
+import "font-awesome/css/font-awesome.min.css";
 
 const Header = (props) => {
   return (
     <header className="App">
-      <div>
-        <h1>YUVRAJ JADHAV</h1>
+      <div className="header">
+        <h1>Siddharaj Suryavanshi</h1>
         <h2 className="role">Software Developer</h2>
-        <div>
-          <span className="contact">+91-9890175152</span>
-          <span className="email">yugoja20@gmail.com</span>
-          <span className="address">Pune,India</span>
+        <div className="grid-container">
+          <div class="grid-item">
+            <i className="fa fa-phone"></i>
+            +91-7738958923
+          </div>
+          <div class="grid-item">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            sid.sunvanshi@gmail.com
+          </div>
+          <div class="grid-item"></div>
+          <div class="grid-item">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            Pune,India
+          </div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
         </div>
       </div>
       <div>
