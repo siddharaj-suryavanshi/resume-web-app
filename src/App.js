@@ -6,7 +6,7 @@ import Summary from "./Components/Summary";
 import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
 import MostProud from "./Components/MostProud";
-//import Education from "./Components/Education";
+import Education from "./Components/Education";
 
 //css
 import "./App.css";
@@ -24,6 +24,7 @@ class App extends React.Component {
           <div className="container-2">
             <Skills />
             <MostProud />
+            <Education />
           </div>
         </div>
       </div>

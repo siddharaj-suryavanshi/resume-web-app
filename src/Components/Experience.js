@@ -85,7 +85,7 @@ const Experience = (props) => {
           </span>
         </div>
         <div className="project-details">
-          <span>Synechron Inc. is a New York based consulting company.</span>
+          <p>Synechron Inc. is a New York based consulting company.</p>
           <ul>
             <li>
               Built an web app for diabetes patients to calculate cost of

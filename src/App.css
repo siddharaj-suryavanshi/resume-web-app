@@ -7,7 +7,6 @@ img {
 }
 
 .header > div {
-  width: 25;
 }
 
 .exp {
@@ -36,6 +35,8 @@ ul.lang {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
+  justify-content: space-around;
 }
 
 h3 {
@@ -48,4 +49,16 @@ h2.main {
 
 div.company-details span {
   padding: 10px;
+}
+
+ul.lang li {
+  border-bottom: dotted;
+}
+
+div.contact span {
+  padding: 10px;
+}
+
+.loc {
+  margin-top: 20px;
 }

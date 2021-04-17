@@ -15,7 +15,7 @@ const Header = (props) => {
             <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;
             sid.sunvanshi@gmail.com
           </span>
-          <div>
+          <div className="loc">
             <span className="aa">
               <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;
               Pune,India
