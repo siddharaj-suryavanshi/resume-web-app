@@ -3,10 +3,10 @@ import "font-awesome/css/font-awesome.min.css";
 
 const Header = (props) => {
   return (
-    <header className="header">
+    <section className="header">
       <div className="personal-info">
         <h1>SIDDHARAJ SURYAVANSHI</h1>
-        <h2 className="role">Software Developer</h2>
+        <h2 className="role blue">Software Developer</h2>
         <div className="contact">
           <span>
             <i className="fa fa-phone"></i> &nbsp; +91-7738958923
@@ -26,7 +26,7 @@ const Header = (props) => {
       <div className="photo">
         <img src={image0} alt="" height="200" width="200"></img>
       </div>
-    </header>
+    </section>
   );
 };
 

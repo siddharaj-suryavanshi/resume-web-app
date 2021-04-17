@@ -1,40 +1,11 @@
-/* .App {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-}
-
-
-
 img {
   border-radius: 60%;
 }
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
-.grid-item {
-  padding: 10px;
-  font-size: 15px;
-}
-
-.App > div {
-  padding: 20px;
-}
-
-.exp {
-  border-bottom: solid 8px;
-  width: 10%;
-} */
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
-h2.role,
+.blue,
 i {
   color: DodgerBlue;
-}
-
-div.contact span {
 }
