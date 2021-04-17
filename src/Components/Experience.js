@@ -6,7 +6,7 @@ const Experience = (props) => {
       <h2 className="main">EXPERIENCE</h2>
       <div className="experience-ibm exp">
         <h3>IBM</h3>
-        <h3 className="blue">Advisory System Analyst</h3>
+        <h4 className="blue">Advisory System Analyst</h4>
         <div className="company-details">
           <span>
             <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 02/2018 -
@@ -38,7 +38,7 @@ const Experience = (props) => {
       </div>
       <div className="experience-servient exp">
         <h3>Servient</h3>
-        <h3 className="blue">Web Developer</h3>
+        <h4 className="blue">Web Developer</h4>
         <div className="company-details">
           <span>
             <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 05/2014 -
@@ -73,7 +73,7 @@ const Experience = (props) => {
       </div>
       <div className="experience-synechron exp">
         <h3>Synechron</h3>
-        <h3 className="blue">Associate Software Developer</h3>
+        <h4 className="blue">Associate Software Developer</h4>
         <div className="company-details">
           <span>
             <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 04/2012 -
