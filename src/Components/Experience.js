@@ -1,17 +1,24 @@
+import "font-awesome/css/font-awesome.min.css";
+
 const Experience = (props) => {
   return (
-    <section className="experience">
-      <h2>EXPERIENCE</h2>
-      <div className="experience-ibm">
+    <div className="experience">
+      <h2 className="main">EXPERIENCE</h2>
+      <div className="experience-ibm exp">
         <h3>IBM</h3>
         <h3 className="blue">Advisory System Analyst</h3>
         <div className="company-details">
-          <span>02/2018</span>
+          <span>
+            <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 02/2018 -
+          </span>
           <span>Ongoing</span>
-          <span>Pune, India</span>
+          <span>
+            {" "}
+            <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Pune, India
+          </span>
         </div>
         <div className="project-details">
-          <span>IBM Services is the professional services arm of IBM.</span>
+          <p>IBM Services is the professional services arm of IBM.</p>
           <ul>
             <li>
               Developed a code upgrade tool to upgrade apps from older version
@@ -29,19 +36,24 @@ const Experience = (props) => {
           </ul>
         </div>
       </div>
-      <div className="experience-servient">
+      <div className="experience-servient exp">
         <h3>Servient</h3>
         <h3 className="blue">Web Developer</h3>
         <div className="company-details">
-          <span>05/2014</span>
+          <span>
+            <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 05/2014 -
+          </span>
           <span>02/2018</span>
-          <span>Pune,India</span>
+          <span>
+            {" "}
+            <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Pune,India
+          </span>
         </div>
         <div className="project-details">
-          <span>
+          <p>
             A product company operating in legal domain serving an e-discovery
             solution for legal teams of fortune 500 companies and legal firms.
-          </span>
+          </p>
           <ul>
             <li>
               Led building of a DIY dashboard which was one of the central
@@ -59,13 +71,18 @@ const Experience = (props) => {
           </ul>
         </div>
       </div>
-      <div className="experience-synechron">
+      <div className="experience-synechron exp">
         <h3>Synechron</h3>
         <h3 className="blue">Associate Software Developer</h3>
         <div className="company-details">
-          <span>04/2012</span>
+          <span>
+            <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp; 04/2012 -
+          </span>
           <span>05/2014</span>
-          <span>Pune,India</span>
+          <span>
+            {" "}
+            <i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Pune,India
+          </span>
         </div>
         <div className="project-details">
           <span>Synechron Inc. is a New York based consulting company.</span>
@@ -80,7 +97,7 @@ const Experience = (props) => {
           </ul>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

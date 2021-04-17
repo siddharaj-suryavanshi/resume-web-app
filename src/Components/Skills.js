@@ -1,9 +1,9 @@
 const Skills = (props) => {
   return (
-    <section className="skills">
-      <h2>SKILLS</h2>
+    <div className="skills">
+      <h2 className="main">SKILLS</h2>
       <h3 className="blue">Programming languages</h3>
-      <ul>
+      <ul className="lang">
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
@@ -11,7 +11,7 @@ const Skills = (props) => {
         <li>SQL</li>
       </ul>
       <h3 className="blue">Frameworks and Tools</h3>
-      <ul>
+      <ul className="lang">
         <li>React</li>
         <li>Angular</li>
         <li>Node and NPM</li>
@@ -21,7 +21,7 @@ const Skills = (props) => {
         <li>Babel</li>
         <li>Maven</li>
       </ul>
-    </section>
+    </div>
   );
 };
 

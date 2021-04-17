@@ -6,7 +6,7 @@ import Summary from "./Components/Summary";
 import Experience from "./Components/Experience";
 import Skills from "./Components/Skills";
 import MostProud from "./Components/MostProud";
-import Education from "./Components/Education";
+//import Education from "./Components/Education";
 
 //css
 import "./App.css";
@@ -16,11 +16,16 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header />
-        <Summary />
-        <Experience />
-        <Skills />
-        <MostProud />
-        <Education />
+        <div className="flex-container">
+          <div className="container-1">
+            <Summary />
+            <Experience />
+          </div>
+          <div className="container-2">
+            <Skills />
+            <MostProud />
+          </div>
+        </div>
       </div>
     );
   }
