@@ -1,13 +1,10 @@
-.App {
+/* .App {
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
 
-h2.role,
-i {
-  color: DodgerBlue;
-}
+
 
 img {
   border-radius: 60%;
@@ -22,6 +19,22 @@ img {
   font-size: 15px;
 }
 
-header > div {
+.App > div {
   padding: 20px;
+}
+
+.exp {
+  border-bottom: solid 8px;
+  width: 10%;
+} */
+.header {
+  display: flex;
+  justify-content: center;
+}
+h2.role,
+i {
+  color: DodgerBlue;
+}
+
+div.contact span {
 }
