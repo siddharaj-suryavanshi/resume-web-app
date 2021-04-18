@@ -1,5 +1,5 @@
 import image0 from "../media/image0.jpeg";
-import "font-awesome/css/font-awesome.min.css";
+//import "font-awesome/css/font-awesome.min.css";
 
 const Header = (props) => {
   return (
