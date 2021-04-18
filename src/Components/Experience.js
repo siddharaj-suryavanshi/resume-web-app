@@ -1,6 +1,6 @@
 import "font-awesome/css/font-awesome.min.css";
 
-const Experience = (props) => {
+const Experience = () => {
   return (
     <div className="experience">
       <h2 className="main">EXPERIENCE</h2>
